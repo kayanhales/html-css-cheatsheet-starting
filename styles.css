@@ -15,6 +15,14 @@ body{
     color: white;
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(26, 53, 53);
+}
+
 header{
     width: 100%;
     position: fixed;
