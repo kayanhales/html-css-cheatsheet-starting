@@ -1,86 +1,178 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Dev Cheat Sheet</title>
-  <link href="styles.css" type="text/css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <title>Dev Cheat Sheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Dev Cheat Sheet</h1>
-        <nav>
-            <ul>
-                <li><a href="#html">HTML</a></li>
-                <li><a href="#css">CSS</a></li>
-                <li><a href="#terminal">Terminal</a></li>
-                <li><a href="#git">Git</a></li>
-                <li><a href="#links">Links</a></li>
-            </ul>
-        </nav>
+      <h1>Dev Cheat Sheet</h1>
+      <nav>
+        <ul>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#terminal">Terminal</a></li>
+          <li><a href="#git">Git</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="html">
-            <h2>HTML</h2>
-            <article><code>&lt!DOCTYPE html&gt;</code>
-            <p class="desc">declaration of document type</p>
+      <!-----------HTML SECTION-------------->
+      <section id="html">
+        <h2>HTML</h2>
+        <article>
+          <code>&lt!DOCTYPE html&gt;</code>
+          <p class="desc">declaration of document type</p>
         </article>
         <article>
-            <code>&ltlink rel="preconnect" href="https://fonts.googleapis.com"&gt;
-                <br>&ltlink rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
-                <br>&ltlink href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"&gt;</code>
-                <p class="desc">add in google font</p>
+          <code
+            >&ltlink rel="preconnect" href="https://fonts.googleapis.com"&gt;
+            <br />&ltlink rel="preconnect" href="https://fonts.gstatic.com"
+            crossorigin&gt; <br />&ltlink
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"&gt;</code
+          >
+          <p class="desc">add in google font</p>
         </article>
         <article>
-            <code>&ltlink href="styles.css" type="text/css" rel="stylesheet"&gt;</code>
-            <p class="desc">add in stylesheet</p>
+          <code
+            >&ltlink href="styles.css" type="text/css"
+            rel="stylesheet"&gt;</code
+          >
+          <p class="desc">add in stylesheet</p>
         </article>
-        <article><code>&ltheader&gt; &lt/header&gt;
-            <br>&ltmain&gt; &lt/main&gt; 
-            <br>&ltsection&gt; &lt/section&gt;
-            <br>&nbsp; &ltarticle&gt; &lt/article&gt; 
-            <br>&nbsp; &ltaside&gt; &lt/aside&gt; 
-            <br>&ltfooter&gt; &lt/footer&gt;</code><p class="desc">semantics to define</p></article>
-    </section>
-    <section id="css">
+        <article>
+          <code
+            >&ltheader&gt; &lt/header&gt; <br />&ltmain&gt; &lt/main&gt;
+            <br />&ltsection&gt; &lt/section&gt; <br />&nbsp; &ltarticle&gt;
+            &lt/article&gt; <br />&nbsp; &ltaside&gt; &lt/aside&gt;
+            <br />&ltfooter&gt; &lt/footer&gt;</code
+          >
+          <p class="desc">semantics to define</p>
+        </article>
+      </section>
+      <!-----------CSS SECTION-------------->
+      <section id="css">
         <h2>CSS</h2>
-        <article><code>*{<br>margin: 0; <br>padding: 0; <br>box-sizing: border-box; <br>width: 100%;<br>}</code><p class="desc">global reset</p></article>
-    </section>
-    <section id="terminal">
+        <article>
+          <code
+            >*{<br />margin: 0; <br />padding: 0; <br />box-sizing: border-box;
+            <br />width: 100%;<br />}</code
+          >
+          <p class="desc">global reset</p>
+        </article>
+      </section>
+      <!-----------TERMINAL SECTION-------------->
+      <section id="terminal">
         <h2>Terminal</h2>
-        <article><code>pwd</code><p class="desc">print working directory</p></article>
-        <article><code>ls</code><p class="desc">list content of directory</p></article>
-        <article><code>mkdir folderName</code><p class="desc">make folder</p></article>
-        <article><code>touch fileName</code><p class="desc">create new file</p></article>
-        <article><code>cd folderName</code><p class="desc">go to folderName</p></article>
-        <article><code>vi fileName</code><p class="desc">edit fileName</p></article>
-    </section>
-    <section id="git">
+        <article>
+          <code>pwd</code>
+          <p class="desc">print working directory</p>
+        </article>
+        <article>
+          <code>ls</code>
+          <p class="desc">list content of directory</p>
+        </article>
+        <article>
+          <code>mkdir folderName</code>
+          <p class="desc">make folder</p>
+        </article>
+        <article>
+          <code>touch fileName</code>
+          <p class="desc">create new file</p>
+        </article>
+        <article>
+          <code>cd folderName</code>
+          <p class="desc">go to folderName</p>
+        </article>
+        <article>
+          <code>vi fileName</code>
+          <p class="desc">edit fileName</p>
+        </article>
+      </section>
+      <!-----------GIT SECTION-------------->
+      <section id="git">
         <h2>GIT</h2>
-        <article><code>git init</code><p class="desc">turn directory into empty git repo</p></article>
-        <article><code>git add .</code><p class="desc">add all files into staging area for commiting</p></article>
-        <article><code>git add fileName.ext</code><p class="desc">add fileName.ext into staging area for commiting</p></article>
-        <article><code>git commit -m "my commit message"</code><p class="desc">commit staged files to repo</p></article>
-        <article><code>git push --all</code><p class="desc">push committed files to repo</p></article>
-        <article><code>git branch branchName</code><p class="desc">create new branch</p></article>
-        <article><code>git checkout branchName</code><p class="desc">switch branches to start working in new branch</p></article>
-        <article><code>git merge branchName</code><p class="desc">merge branches together</p></article>
-        <article><code>git remote add origin remoteName remoteURL</code><p class="desc">connect to a remote repo</p></article>
-        <article><code>git clone remoteURL</code><p class="desc">git clone</p></article>
-        <article><code>git pull branchName repoName</code><p class="desc">get the latest verion of repo</p></article>
-    </section>
-    <section id="links">
+        <article>
+          <code>git init</code>
+          <p class="desc">turn directory into empty git repo</p>
+        </article>
+        <article>
+          <code>git add .</code>
+          <p class="desc">add all files into staging area for commiting</p>
+        </article>
+        <article>
+          <code>git add fileName.ext</code>
+          <p class="desc">add fileName.ext into staging area for commiting</p>
+        </article>
+        <article>
+          <code>git commit -m "my commit message"</code>
+          <p class="desc">commit staged files to repo</p>
+        </article>
+        <article>
+          <code>git push --all</code>
+          <p class="desc">push committed files to repo</p>
+        </article>
+        <article>
+          <code>git branch branchName</code>
+          <p class="desc">create new branch</p>
+        </article>
+        <article>
+          <code>git checkout branchName</code>
+          <p class="desc">switch branches to start working in new branch</p>
+        </article>
+        <article>
+          <code>git merge branchName</code>
+          <p class="desc">merge branches together</p>
+        </article>
+        <article>
+          <code>git remote add origin remoteName remoteURL</code>
+          <p class="desc">connect to a remote repo</p>
+        </article>
+        <article>
+          <code>git clone remoteURL</code>
+          <p class="desc">git clone</p>
+        </article>
+        <article>
+          <code>git pull branchName repoName</code>
+          <p class="desc">get the latest verion of repo</p>
+        </article>
+      </section>
+      <!-----------LINKS SECTION-------------->
+      <section id="links">
         <h2>Links</h2>
-        <article><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></article>
-        <article><a href="https://www.w3schools.com" target="_blank">W3Schools</a></article>
-        <article><a href="https://discuss.codecademy.com" target="_blank">Codecademy Forums</a></article>
-        <article><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></article>
-        <article><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">CSS Color Picker</a></article>
-    </section>
-</main>
-<footer>
-        <p>Copyright Kayan Clarke 2024</p>
+        <article>
+          <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a>
+        </article>
+        <article>
+          <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+        </article>
+        <article>
+          <a href="https://discuss.codecademy.com" target="_blank"
+            >Codecademy Forums</a
+          >
+        </article>
+        <article>
+          <a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>
+        </article>
+        <article>
+          <a
+            href="https://www.w3schools.com/colors/colors_picker.asp"
+            target="_blank"
+            >CSS Color Picker</a
+          >
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright Kayan Clarke 2024</p>
     </footer>
-</body>
+  </body>
 </html>
